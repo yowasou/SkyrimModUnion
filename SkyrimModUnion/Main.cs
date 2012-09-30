@@ -172,6 +172,7 @@ namespace SkyrimModUnion
             {
                 using (Stream stream = File.OpenRead(file))
                 {
+                    //未実装：ファイル名にハイフンが入っていたらリネーム
                     var reader = ReaderFactory.Open(stream);
                     while (reader.MoveToNextEntry())
                     {
