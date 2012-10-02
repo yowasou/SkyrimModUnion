@@ -1,0 +1,44 @@
+C:.
+„   Skyrim - Animations.bsa
+„   Skyrim - Interface.bsa
+„   Skyrim - Meshes.bsa
+„   Skyrim - Misc.bsa
+„   Skyrim - Shaders.bsa
+„   Skyrim - Sounds.bsa
+„   Skyrim - Textures.bsa
+„   Skyrim - Voices.bsa
+„   Skyrim - VoicesExtra.bsa
+„   Skyrim.esm
+„   Update.bsa
+„   vanilafilelist.txt
+„   
+„¥„ŸInterface
+„   „   fontconfig.txt
+„   „   fonts_ja.swf
+„   „   sharedcomponents.swf
+„   „   sleepwaitmenu.swf
+„   „   startmenu.swf
+„   „   trainingmenu.swf
+„   „   Translate_ENGLISH.txt
+„   „   
+„   „¥„Ÿexported
+„   „       hudmenu.gfx
+„   „       quest_journal.gfx
+„   „       
+„   „¤„Ÿinventory components
+„           bottombar.swf
+„           
+„¥„ŸStrings
+„       DeadlyDragons_English.DLSTRINGS
+„       DeadlyDragons_English.ILSTRINGS
+„       DeadlyDragons_English.STRINGS
+„       Skyrim_English.DLSTRINGS
+„       Skyrim_English.ILSTRINGS
+„       Skyrim_English.STRINGS
+„       Update_English.DLSTRINGS
+„       Update_English.ILSTRINGS
+„       Update_English.STRINGS
+„       
+„¤„ŸVideo
+        BGS_Logo.bik
+        
