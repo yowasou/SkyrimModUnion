@@ -92,7 +92,6 @@ namespace SkyrimModUnion
             }
             string extTemppath = temppath + "\\ext";
             string cmpTemppath = temppath + "\\cmp";
-            Directory.CreateDirectory(extTemppath);
             Directory.CreateDirectory(cmpTemppath);
             bW.ReportProgress(10);
             foreach (object o in lstFiles.Items)
@@ -164,6 +163,7 @@ namespace SkyrimModUnion
         }
         protected virtual void ExtractFile(string temppath, string file, string ext)
         {
+            ReCreateDir(temppath);
             if (ext == ".7z" || ext == ".7zip")
             {
                 SevenZManager.fnExtract(file, temppath);
@@ -184,6 +184,15 @@ namespace SkyrimModUnion
                     }
                 }
             }
+        }
+
+        protected virtual void ReCreateDir(string temppath)
+        {
+            if (Directory.Exists(temppath))
+            {
+                Directory.Delete(temppath, true);
+            }
+            Directory.CreateDirectory(temppath);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
